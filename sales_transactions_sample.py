@@ -1,4 +1,13 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "6"
+# ///
+# MAGIC %md
+# MAGIC Test GitHub link from Databricks
+
+# COMMAND ----------
+
 # MAGIC %sql
 # MAGIC SELECT *
 # MAGIC FROM `samples`.`bakehouse`.`sales_transactions`
